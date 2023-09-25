@@ -26,6 +26,11 @@ body.addEventListener("keydown", (event) => {
     if (datakey == "65" || datakey == "83" || datakey == "68" || datakey == "70" || datakey == "71" || datakey == "72" || datakey == "74" || datakey == "75" || datakey == "76") {
         const music = document.querySelector(`audio[data-key="${datakey}"]`);
         music.play();
+        const changeKeyStyle = document.querySelector(`div[data-key="${datakey}"]`);
+        changeKeyStyle.classList.add("playing");
+        setTimeout(() => {
+            changeKeyStyle.classList.remove("playing")
+        }, 300);
     }
 
     // switch (event.keyCode) {
