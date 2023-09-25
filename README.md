@@ -49,6 +49,8 @@ Targetig tags thru custom attributes was new to me, as an additional problem the
 The first approach by processing the key events thru switch/case was of course too long, so later figured out how to adress all audios thru one variable.
 Secondly how to remove the animation effect was not obvious to me, because a delay is desired to see the animation.
 
+Aferwards I checked the sample solution, which was of course more nifty, but my solution works at least.
+
 ### Continued development
 
 Learning more about DOM manipulation.
